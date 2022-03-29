@@ -1277,6 +1277,10 @@ footer .copyright {
     left: 0;
   }
 
+  #home .home-text {
+    padding: 0;
+  }
+
   #plans p, #payment p, #about p, #contact p{
     padding-left: 150px;
     padding-right: 150px;
