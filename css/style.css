@@ -192,11 +192,6 @@ body {
   background-color: var(--medium-grey);
   color: var(--blue-principal);
   overflow: overlay;
-  background-image: url(/one-internet-redesign/img/home/fiber-home.webp);
-  background-size: cover;
-  background-attachment: fixed;
-  backdrop-filter: blur(0px);
-  backdrop-filter: brightness(50%);
 }
 
 nav {
@@ -290,6 +285,10 @@ nav .nav-toggle i {
 #home .home-background {
   width: 100%;
   height: 100vh;
+  background-image: url(/one-internet-redesign/img/home/fiber-home.webp);
+  background-size: cover;
+  background-attachment: fixed;
+  filter: blur(0px) brightness(50%);
 }
 
 #home .home-text {
@@ -1276,6 +1275,10 @@ footer .copyright {
   nav .nav-menu-visible {
     transition: left 0.4s;
     left: 0;
+  }
+
+  #home .home-background {
+    background-attachment: initial;
   }
 
   #home .home-text {
