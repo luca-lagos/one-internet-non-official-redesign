@@ -285,7 +285,7 @@ nav .nav-toggle i {
 #home .home-background {
   width: 100%;
   height: 100vh;
-  background-image: url(/img/home/fiber-home.webp);
+  background-image: url(/one-internet-redesign/img/home/fiber-home.webp);
   background-size: cover;
   background-attachment: fixed;
   filter: blur(0px) brightness(50%);
@@ -428,7 +428,7 @@ nav .nav-toggle i {
   opacity: 0;
 }
 
-#plans p {
+#plans .plans-description {
   color: var(--light-grey);
   font-size: 20px;
   font-style: italic;
